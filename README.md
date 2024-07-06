@@ -3,7 +3,7 @@
 <p align="center">Desenvolvimento de um website com intuito de desafiar os alunos da formação Softex Pernambuco de Front-End ministrada pelo professor Flávio</p>
 <hr>
 
-### Features
+### Atualizações
 
 - [x] Protótipo do projeto
 - [x] Inicialização do projeto
