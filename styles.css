@@ -2,13 +2,14 @@
 .header {
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin-top: 1em
+    justify-content: flex-start;
+    margin-top: 0,5em
 }
 
 .purple {
     width: 150px;
     padding-left: 10px;
+    padding-right: 180px;
 }
 
 .header__navegacao {
@@ -22,11 +23,28 @@
     transition: 0.4s ;
 }
 
+.header__navega {
+    padding-right: 200px;
+    display: flex;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: #676569;
+    font-weight: 500;
+    transition: 0.4s ;
+
+}
+
 .header__navegacao:hover {
     color: white;
 }
 
 .nav {
+    width: 30px;
+    padding: 0 15px;
+}
+.navi {
+    padding-right: 80px;
     width: 30px;
     padding: 0 15px;
 }
@@ -70,7 +88,7 @@ body {
     align-items: center;
     width: auto;
     height: auto;
-    padding: 3em 20em 3em 10em;
+    padding: 3em 8em 3em 10em;
     opacity: 0.5;
 }
 
@@ -78,7 +96,7 @@ body {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    margin-left: 17em;
+    margin-left: 1em;
     width: 500px;
 }
 
